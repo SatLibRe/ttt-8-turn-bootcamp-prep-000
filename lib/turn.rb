@@ -39,7 +39,7 @@ def turn(board)
       puts "Invalid"
       index = gets.strip.to_i - 1 
     end 
-  move(board,index,x_or_o = "X")
+  move(board,index)
   display_board(board)
 end 
 
